@@ -1,0 +1,3 @@
+SELECT SUM(session_duration),item_name
+from ecom_data
+Group by item_name;
